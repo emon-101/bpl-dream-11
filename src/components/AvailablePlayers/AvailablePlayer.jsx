@@ -1,9 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import { FaUser } from "react-icons/fa";
 import { IoFlag } from "react-icons/io5";
+import { toast } from "react-toastify";
 
-const AvailablePlayer = ({player}) => {
+const AvailablePlayer = ({player, setCoins, coins, setSelectedPlayer, selectedPlayer}) => {
+    const [isSelected, setIsSelected] = useState(false);
     const {playerName, playerCountry, playerType, ratting, battingStyle, bowlingStyle, price, playerImage} = player;
+
+    const handleChooseplayer = ()=> {
+        if(coins < price) {
+            toast.error("Insufficient balance to buy players!");
+            return;
+        }
+        toast.success(`${playerName} is sold`);
+        setIsSelected(true);
+        setCoins(coins - price);
+        setSelectedPlayer([...selectedPlayer, player]);
+    }
   return (
     <div>
       <div className="card bg-base-100 shadow-sm">
@@ -26,7 +39,7 @@ const AvailablePlayer = ({player}) => {
               {playerType}
             </button>
           </div>
-          <div class="divider"></div>
+          <div className="divider"></div>
           <p className="font-medium mb-2">Ratting: {ratting}</p>
           <div className="flex justify-between mb-3">
             <span className="font-medium">{battingStyle}</span>
@@ -34,7 +47,7 @@ const AvailablePlayer = ({player}) => {
           </div>
           <div className="flex justify-between items-center">
             <span className="font-semibold">Price: ${price}</span>
-            <button className="btn">Choose Player</button>
+            <button onClick={handleChooseplayer} className={`btn`} disabled={isSelected}>{isSelected ? 'Selected': 'Choose Player'}</button>
           </div>
         </div>
       </div>

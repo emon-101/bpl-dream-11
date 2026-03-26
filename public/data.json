@@ -6,7 +6,7 @@
     "ratting": 9.5,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": 1500000,
+    "price": 15000,
     "playerImage": "https://i.ibb.co.com/mrcDLnwD/virat-kohli.webp"
   },
   {
@@ -16,7 +16,7 @@
     "ratting": 9.2,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1400000,
+    "price": 14000,
     "playerImage": "https://i.ibb.co.com/ynbR8GpZ/joe-root.avif"
   },
   {
@@ -26,7 +26,7 @@
     "ratting": 9.3,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1450000,
+    "price": 14500,
     "playerImage": "https://i.ibb.co.com/DDgsng02/babar-azam.webp"
   },
   {
@@ -36,7 +36,7 @@
     "ratting": 9.0,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm fast medium",
-    "price": 1550000,
+    "price": 15500,
     "playerImage": "https://i.ibb.co.com/mCKZnjbt/ben-stokes.jpg"
   },
   {
@@ -46,7 +46,7 @@
     "ratting": 9.4,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Left-arm orthodox",
-    "price": 1480000,
+    "price": 14800,
     "playerImage": "https://i.ibb.co.com/kVnVfbyy/sakib-al-hasan.jpg"
   },
   {
@@ -56,7 +56,7 @@
     "ratting": 9.1,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1420000,
+    "price": 14200,
     "playerImage": "https://i.ibb.co.com/1YVK8kmK/Kane-Williamson-Thumb-injury.webp"
   },
   {
@@ -66,7 +66,7 @@
     "ratting": 8.9,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm leg break",
-    "price": 1380000,
+    "price": 13800,
     "playerImage": "https://i.ibb.co.com/9md03vdK/david-warner2.webp"
   },
   {
@@ -76,7 +76,7 @@
     "ratting": 9.6,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": 1600000,
+    "price": 16000,
     "playerImage": "https://i.ibb.co.com/sDz2pBL/jusprit-bumrah.webp"
   },
   {
@@ -86,7 +86,7 @@
     "ratting": 9.3,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm fast",
-    "price": 1520000,
+    "price": 15200,
     "playerImage": "https://i.ibb.co.com/QFmrz90V/pat-cummins.jpg"
   },
   {
@@ -96,7 +96,7 @@
     "ratting": 9.4,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm leg break googly",
-    "price": 1500000,
+    "price": 15000,
     "playerImage": "https://i.ibb.co.com/jtvZF7B/rashid-khan.jpg"
   },
   {
@@ -106,7 +106,7 @@
     "ratting": 9.7,
     "battingStyle": "Right-hand bat",
     "bowlingStyle": "Right-arm medium",
-    "price": 1650000,
+    "price": 16500,
     "playerImage": "https://i.ibb.co.com/fd2PZNZF/abd.jpg"
   },
   {
@@ -116,7 +116,7 @@
     "ratting": 8.8,
     "battingStyle": "Left-hand bat",
     "bowlingStyle": "Right-arm off break",
-    "price": 1350000,
+    "price": 13500,
     "playerImage": "https://i.ibb.co.com/M5pdw5Bb/chris-gayle.jpg"
   }
 ]
