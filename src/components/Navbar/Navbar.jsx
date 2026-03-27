@@ -10,7 +10,7 @@ const Navbar = ({coins}) => {
           <a className=""><img src={navLogo} alt="" /></a>
         </div>
         <div className="flex justify-between items-center gap-12">
-          <ul className="flex gap-12 items-center text-gray-500">
+          <ul className="hidden md:flex gap-12 items-center text-gray-500">
             <li><a href="">Home</a></li>
             <li><a href="">Fixture</a></li>
             <li><a href="">Teams</a></li>
